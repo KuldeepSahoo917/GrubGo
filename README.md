@@ -9,7 +9,7 @@ The application is containerized using Docker and runs inside an Nginx container
 2. Git
 
 ---
-
+## Installation
 ### 1. Clone the repository
 ```
 git clone https://github.com/KuldeepSahoo917/GrubGo.git
