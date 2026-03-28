@@ -18,6 +18,13 @@ git clone https://github.com/KuldeepSahoo917/GrubGo.git
 cd GrubGo
 ```
 
+### OPTION-1
+### 2. Run using Docker-compose
+```
+docker-compose up -
+```
+
+### OPTION-2
 ### 2. Build the app
 ```
 docker build -t grubgo .
@@ -45,9 +52,9 @@ If running on a server:
 http://<server-ip>:8081
 ```
 
-If someone asks how Docker Flask works, say this:
 
-Flow:
+
+Docker WorkFlow:
 ```
-User Browser → Port 8081 → Docker Container → Nginx Server → Website Files → Response → Browser 
+Dockerfile → Builds Image → Docker Compose → Creates Container → Nginx → Website Runs
 ```
