@@ -21,7 +21,7 @@ cd GrubGo
 ### OPTION-1
 ### 2. Run using Docker-compose
 ```
-docker-compose up -
+docker-compose up -d
 ```
 
 ### OPTION-2
