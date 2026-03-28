@@ -1,0 +1,9 @@
+version: '3'
+services:
+  grubgo:
+    image: grubgo
+    build: .
+    container_name: grubgo_container
+    ports:
+      - "8081:80"
+    restart: always
